@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lumi Hussien</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="load()">
+    <header>
+        <div class="container">
+            <a href="#" class="logo" id="logo">
+                <img src="images/logo.png" alt="logo" width="60px" height="60px">
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu" id="toggle-menu"></i>
+                <ul class="main-nav" id="main-nav">
+                    <li class="nav-link active"><a href="#skills" data-tag="skills">My Skills</a></li>
+                    <li class="nav-link"><a href="#services" data-tag="services">Services</a></li>
+                    <li class="nav-link"><a href="#gallery" data-tag="gallery">Gallery</a></li>
+                    <li class="nav-link"><a href="#" id="change-language" data-tag="language">Language</a>
+                        <div class="language" id="language">
+                            <ul class="links">
+                                <li id="arabic"><a href="" data-tag="arabic">Arabic</a></li>
+                                <li id="english"><a href="" data-tag="english">English</a></li>
+                                <li><a href="" data-tag="russian">Russian</a></li>
+                                <li><a href="" data-tag="french">French</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End header -->
+    <!-- Start about me -->
+    <div class="about-me">
+        <div class="container">
+            <div class="image">
+                <img src="images/lumi.jpg" alt=" my photo" height="400px">
+            </div>
+            <div class="info">
+                <h1>Hi, I am <span>Eng.Lumi Hussien</span></h1>
+                <p>
+                    <i class="fas fa-graduation-cap fa-lg"></i>
+                    Bachelor Degree in Informatic Engineering
+                    <span>
+                        Tishreen University / Faculty of Informatic Technology
+                    </span>
+                </p>
+                <p><i class="fas fa-briefcase fa-lg"></i> I am a full stack web developer!</p>
+                <button>Hire Me</button>
+            </div>
+        </div>
+    </div>
+    <div class="spikes"></div>
+    <!-- End about me -->
+    <!-- Start skills -->
+    <div class="my-skills text-center" id="skills">
+        <h2 class="main-title" data-tag="skills">My Skills</h2>
+        <div class="container">
+            <img src="images/skill.jpg" alt="my skills" width="400px" height="300px">
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="the-progress">
+                        <span class="prog-color" style="width: 90%;"></span>
+                        <span class="prog-percent">90%</span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="the-progress">
+                        <span class="prog-color" style="width: 80%;"></span>
+                        <span class="prog-percent">80%</span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="the-progress">
+                        <span class="prog-color" style="width: 70%;"></span>
+                        <span class="prog-percent">70%</span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Php</h3>
+                    <div class="the-progress">
+                        <span class="prog-color" style="width: 75%;"></span>
+                        <span class="prog-percent">75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End skills -->
+    <!-- Start services -->
+    <div class="services text-center" id="services">
+        <h2 class="main-title" data-tag="services">Services</h2>
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-user-shield fa-4x"></i>
+                <h3>Security</h3>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools fa-4x"></i>
+                <h3>Fixing Issues</h3>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-language fa-4x"></i>
+                <h3>Translation</h3>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-laptop-code fa-4x"></i>
+                <h3>Coding</h3>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-palette fa-4x"></i>
+                <h3>Web Design</h3>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn fa-4x"></i>
+                <h3>Marketing</h3>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End services -->
+
+    <!-- Start gallery -->
+    <div class="gallery" id="gallery">
+        <h2 class="main-title" data-tag="gallery">Gallery</h2>
+        <div class="container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/g1.png" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/g2.png" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/g3.png" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/g1.png" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/g2.png" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/g3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End gallery -->
+    <!-- Start footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="social-icons">
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-whatsapp fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fas fa-envelope fa-2x"></i>
+                <i class="fab fa-telegram fa-2x"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End footer -->
+
+    <i class="fas fa-long-arrow-alt-up up"></i>
+
+    <script src="js/main.js"></script>
+    <script>
+        function load() {
+            var translate = new Translate();
+            var attributeName = "data-tag";
+            document.getElementById("arabic").addEventListener("click", () => {
+                translate.init(attributeName, "ar");
+                translate.process();
+                localStorage.setItem("Language", "ar");
+            });
+            document.getElementById("english").addEventListener("click", () => {
+                translate.init(attributeName, "en");
+                translate.process();
+                localStorage.setItem("Language", "en");
+            });
+
+            if (localStorage.getItem("Language") == "ar") {
+                translate.init(attributeName, "ar");
+                translate.process();
+            } else if (localStorage.getItem("Language") == "en") {
+                translate.init(attributeName, "en");
+                translate.process();
+            }
+        }
+    </script>
+</body>
+
+</html>
